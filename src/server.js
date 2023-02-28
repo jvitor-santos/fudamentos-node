@@ -31,7 +31,7 @@ const server = http.createServer( async(req, res) => {
         users.push({
             id: 1,
             name,
-            // email,
+            email,
         });
 
         return res.writeHead(201).end();
